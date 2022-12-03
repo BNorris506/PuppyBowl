@@ -1,8 +1,8 @@
 import { useState, useEffect} from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import Form from './Components/Form.jsx'
-import PlayerContainer from './Components/PlayerContainer'
+// import Form from './Components/Form.jsx'
+// import PlayerContainer from './Components/PlayerContainer'
 
 
 

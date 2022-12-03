@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import Form from './Components/Form'
-import { fetchAllPlayers, fetchSinglePlayer } from './Components/FetchPlayers'
-import { renderAllPlayers, renderSinglePlayer } from './Components/RenderPlayers'
 
 //Requirements
 // 1. See a list of each puppy competing in the bowl.
@@ -16,9 +14,9 @@ import { renderAllPlayers, renderSinglePlayer } from './Components/RenderPlayers
 
 
 // const APIURL = 'https://fsa-puppy-bowl.herokuapp.com/api/2211-ftb-et-web-ft/players'
-const playerContainer = document.getElementById('all-players-container');
-const newPlayerFormContainer = document.getElementById('new-player-form');
-console.log(playerContainer)
+// const playerContainer = document.getElementById('all-players-container');
+// const newPlayerFormContainer = document.getElementById('new-player-form');
+// console.log(playerContainer)
 
 // const fetchAllPlayers = async () => {
 //   try {
