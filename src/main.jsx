@@ -112,6 +112,7 @@ console.log(playerContainer)
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Form />
     <App />
   </React.StrictMode>
 )
